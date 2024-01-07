@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <script>             
+        //5-15 
+        let a = parseInt(prompt('money: '))
+        const dollars = Math.floor(a / 380);
+        const cents = Math.round((a / 380 - dollars) * 100);
+        if (cents === 0) {
+           alert(`ONLY ${dollars}  USD`)
+        } else {
+           alert(`${dollars} USD and ${cents} cents`)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <script>
+        //5-13
+        var branch = prompt('Choose your branch:\n1 - Science, 2 - Humanitarian subjects, 3 - Art, 4 - Sport');
+        if (branch === '1') {
+            var scienceChoice = prompt('1 - Math, 2 - Physics');
+            if (scienceChoice === '1') {
+                alert('You are Financier');
+            } else if (scienceChoice === '2') {
+                alert('You are Engineer');
+            } else {
+                alert('Invalid choice');
+            }
+        } else if (branch === '2') {
+            var humanitiesChoice = prompt('1 - History, 2 - Foreign Languages');
+            if (humanitiesChoice === '1') {
+                alert('You are Historic or Diplomat');
+            } else if (humanitiesChoice === '2') {
+                alert('You are Translator');
+            } else {
+                alert('Invalid choice');
+            }
+        } else if (branch === '3') {
+            var artChoice = prompt('1 - Drawing, 2 - Singing');
+            if (artChoice === '1') {
+                alert('You are Painter or Architect');
+            } else if (artChoice === '2') {
+                alert('You are Singer or Tamada');
+            } else {
+                alert('Invalid choice');
+            }
+        } else if (branch === '4') {
+            var sportChoice = prompt('1 - Team, 2 - Individual');
+            if (sportChoice === '1') {
+                alert('You are footballer or Basketball player');
+            } else if (sportChoice === '2') {
+                alert('You are boxer or tennis player');
+            } else {
+                alert('Invalid choice');
+            }
+        } else {
+            alert('Invalid choice');
+        } 
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <script>             
+        //5-16 
+        let a = parseInt(prompt('a: '))
+        const hours = Math.floor(a / 60);
+        const minutes = a % 60;
+        if (minutes === 0) {
+           alert(`ONLY ${hours} HOURS`)
+        } else {
+           alert(`${hours} HOURS and ${minutes} MINUTES`)
+        }
+    </script>
+</body>
+</html>

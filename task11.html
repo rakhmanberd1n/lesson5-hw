@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <script>
+        // 5-11 
+        let a = parseInt(prompt('Year:'))
+        if(Number.isInteger(a) && a > 0 && a <= 30000){
+            if (a%4 == 0 && a%100 != 0 || a%400 == 0) {
+                alert('YES')
+            } else {
+                alert('NO')
+            }
+        } else {
+            alert('ERROR')
+        }
+    </script>
+
+</body>
+</html>
